@@ -1,19 +1,22 @@
 import { useState } from 'react';
-import LoginStatus from "./components/LoginStatus.tsx";
+import TrafficLight from './components/TrafficLight';
 
 const App = () => {
-    const [isLoggedIn, setIsLoggedIn] = useState(false);
-    const handleLogin = () => setIsLoggedIn(true);
-    const handleLogout = () => setIsLoggedIn(false);
+   const[light, setLight] = useState<string>("red")
+    const onYellow = () => setLight("yellow")
+    const onGreen = () => setLight("green")
+    const onRed = () => setLight("red")
     return (
-        <>
-            <LoginStatus
-                isLoggedIn={isLoggedIn}
-                handleLogin={handleLogin}
-                handleLogout={handleLogout}
-            />
-        </>
-    );
+       <>
+           <TrafficLight
+               light={light}
+               onYellow={onYellow}
+               onGreen={onGreen}
+               onRed ={onRed}
+           />
+
+       </>
+   )
 };
 
 export default App;
