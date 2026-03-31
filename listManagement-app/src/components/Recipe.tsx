@@ -1,8 +1,24 @@
-const Recipe = () => {
+const Recipe = ({
+                    id,
+                    name,
+                    ingredients,
+                    handleDelete,
+}: {
+    id: string;
+    name: string;
+    ingredients: string[];
+    handleDelete: (id: number) => void;
+}) => {
     return (
-        <div>
-
-        </div>
+        <>
+            <h2>{name}</h2>
+            <ul>
+                {ingredients.map((ingredient) => (
+                    <li key={ingredient}>{ingredient}</li>
+                ))}
+            </ul>
+            <button onClick={() => handleDelete(id)}>삭제</button>
+        </>
     );
 };
 
