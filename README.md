@@ -1,4 +1,4 @@
-# React + TypeScript Study🌼
+# React + TypeScript Study
 
 React + TypeScript 학습 기록
 
