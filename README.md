@@ -11,4 +11,4 @@ React + TypeScript 학습 기록
   - ver3 (useReducer)
 - List App
   - ver1 (switch)
-  - ver2 (map)
+  - ver2
