@@ -2,7 +2,7 @@
 
 React + TypeScript 학습 기록
 
-## Projects
+## Projects List
 
 - Button App
 - Counter App
