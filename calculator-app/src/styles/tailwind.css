@@ -6,7 +6,7 @@
 
 @layer components {
   .calc-input {
-    @apply bg-white col-span-4 text-right px-2.5 calc-btn;
+    @apply bg-yellow-100 col-span-4 text-right px-2.5 calc-btn;
   }
   .calc-clear {
     @apply bg-[red] col-span-3 calc-btn;
