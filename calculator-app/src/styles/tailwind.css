@@ -15,7 +15,7 @@
     @apply bg-[orange] calc-btn;
   }
   .calc-num {
-    @apply bg-white calc-btn;
+    @apply bg-black calc-btn;
   }
   .calc-dot {
     @apply bg-[green] calc-btn;
