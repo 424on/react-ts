@@ -1,9 +1,9 @@
 import Input from "./components/input";
-
+import Checkbox from "./components/Checkbox";
 function App() {
   return (
     <>
-      <Input />
+      <Checkbox />
     </>
   );
 }

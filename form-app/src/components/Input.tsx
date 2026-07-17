@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function input() {
+function Input() {
   const [formState, setFormState] = useState({
     email: "",
     password: "",
@@ -34,4 +34,4 @@ function input() {
   );
 }
 
-export default input;
+export default Input;
