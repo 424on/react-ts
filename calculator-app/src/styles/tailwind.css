@@ -21,6 +21,6 @@
     @apply bg-[green] calc-btn;
   }
   .calc-result {
-    @apply bg-[blue] col-span-2 calc-btn;
+    @apply bg-[white] col-span-2 calc-btn;
   }
 }
